@@ -1,6 +1,4 @@
 require 'sinatra'
-require 'simulacion.rb'
-@@simulacion
 
 get '/' do
   erb:menuPrincipal
